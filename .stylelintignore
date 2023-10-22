@@ -1,0 +1,12 @@
+# .stylelintignore
+*.min.css
+
+# 其他类型文件
+*.js
+*.jpg
+*.woff
+
+/dist/
+/docs-dist/
+/node_modules/**/*
+/src/styles/element-theme.scss

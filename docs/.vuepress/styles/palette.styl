@@ -1,0 +1,28 @@
+
+.page {
+  padding-left: 10px;
+  .theme-default-content:not(.custom) {
+     max-width: 1300px;
+     margin: 0;
+     margin-left: 20rem;
+  }
+  .theme-default-content {
+    & > table {
+      width: 100%;
+      table-layout: fixed;
+    }
+    & > table thead, & > table tbody {
+      width: 100%;
+      box-sizing: border-box;
+    }
+    & > table tr {
+      display: table-row;
+      vertical-align: inherit;
+      border-color: inherit;
+    }
+    & > table th, & > table td {
+      min-width: 100px;
+      display: table-cell; 
+    }
+  }
+}
